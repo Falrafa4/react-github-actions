@@ -1,0 +1,29 @@
+input[type="checkbox"] {
+    accent-color: var(--primary);
+    width: 1rem;
+    height: 1rem;
+}
+
+li:hover {
+    background-color: #efefef;
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    gap: 0.2rem;
+}
+
+.todo-item {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.icon svg {
+    transition: fill .3s;
+}
+
+.icon:hover svg {
+    fill: #000;
+}
