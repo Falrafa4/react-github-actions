@@ -5,11 +5,12 @@ import TodoList from './components/TodoList'
 import TodoForm from './components/TodoForm'
 
 let id = 0;
-const initialTodos = [
-  { id: id++, title: "Belajar React", done: false },
-  { id: id++, title: "Mengerjakan PR", done: true },
-  { id: id++, title: "Belajar Laravel", done: false },
-]
+// const initialTodos = [
+//   { id: id++, title: "Belajar React", done: false },
+//   { id: id++, title: "Mengerjakan PR", done: true },
+//   { id: id++, title: "Belajar Laravel", done: false },
+// ]
+const initialTodos = [];
 
 function todosReducer(todos, action) {
   switch (action.type) {
